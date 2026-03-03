@@ -14,7 +14,7 @@ pipeline {
         githubPush()
     }
     tools{
-        jdk "java-home-25"
+        jdk "java-home"
         maven "maven-home"
     }
     stages {
